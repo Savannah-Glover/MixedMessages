@@ -1,0 +1,32 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: midnightblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headder {
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.content {
+    width: 80%;
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+
+.content .card {
+    display: inline;
+    border: 3px solid white;
+    margin: 3rem 2rem;
+    padding: 5px;
+    width: 100%;
+}
